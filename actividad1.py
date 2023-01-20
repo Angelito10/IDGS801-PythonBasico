@@ -2,6 +2,7 @@ numero = int(input("Dame la tabla: "))
 
 numeros = 0
 result = 0
+print("")
 
 for n in range(10):
 
