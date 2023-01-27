@@ -5,8 +5,9 @@ class OperasBas:
   res =0
 
   #constructor
-  def __init__(self) -> None:
-      pass
+  def __init__(self,n1,n2):
+      self.n1 = n1
+      self.n2= n2
 
   #metodos
   def sumar(self):
@@ -15,11 +16,7 @@ class OperasBas:
   def restar(self):
     self.res = self.n1 - self.n2;
 
- 
-
-
-
-
+  
 def main():
   obj = OperasBas(3,2)
   obj.sumar();
